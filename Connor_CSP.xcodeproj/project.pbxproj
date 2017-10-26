@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA5D7DC51FA256C100C7DA5D /* Connor_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connor_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5D7DC51FA256C100C7DA5D /* Connor_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Connor_CSP.app; path = "/Users/cjoh9027/Documents/Swift Projects/Connor_CSP/build/Debug-iphoneos/Connor_CSP.app"; sourceTree = "<absolute>"; };
 		AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA5D7DCD1FA256C100C7DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,21 +38,12 @@
 		AA5D7DBC1FA256C100C7DA5D = {
 			isa = PBXGroup;
 			children = (
+				AA5D7DC71FA256C100C7DA5D /* Connor_CSP */,
 				AA5D7DE01FA2581A00C7DA5D /* Resources */,
 				AA5D7DDF1FA2581200C7DA5D /* Model */,
 				AA5D7DDE1FA2580800C7DA5D /* View */,
 				AA5D7DDD1FA257F800C7DA5D /* Controller */,
-				AA5D7DC71FA256C100C7DA5D /* Connor_CSP */,
-				AA5D7DC61FA256C100C7DA5D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		AA5D7DC61FA256C100C7DA5D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AA5D7DC51FA256C100C7DA5D /* Connor_CSP.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		AA5D7DC71FA256C100C7DA5D /* Connor_CSP */ = {
@@ -141,7 +132,7 @@
 				Base,
 			);
 			mainGroup = AA5D7DBC1FA256C100C7DA5D;
-			productRefGroup = AA5D7DC61FA256C100C7DA5D /* Products */;
+			productRefGroup = AA5D7DBC1FA256C100C7DA5D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -306,11 +297,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Connor_CSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Connor-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,11 +314,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Connor_CSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Connor-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
