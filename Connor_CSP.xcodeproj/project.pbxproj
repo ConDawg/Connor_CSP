@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA005DD31FB3A1970065F85C /* ImpactViewController.swift */; };
 		AA5D7DC91FA256C100C7DA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */; };
 		AA5D7DCB1FA256C100C7DA5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */; };
 		AA5D7DCE1FA256C100C7DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7DCC1FA256C100C7DA5D /* Main.storyboard */; };
@@ -18,11 +19,11 @@
 		AA5D7DEC1FA25B7400C7DA5D /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DEB1FA25B7400C7DA5D /* AlgorithmsViewController.swift */; };
 		AA5D7DEE1FA25B8600C7DA5D /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */; };
 		AA5D7DF01FA25B9500C7DA5D /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DEF1FA25B9500C7DA5D /* InternetViewController.swift */; };
-		AA5D7DF21FA25BA900C7DA5D /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DF11FA25BA900C7DA5D /* ImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA5D7DC51FA256C100C7DA5D /* Connor_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Connor_CSP.app; path = "/Users/cjoh9027/Documents/Swift Projects/Connor_CSP/build/Debug-iphoneos/Connor_CSP.app"; sourceTree = "<absolute>"; };
+		AA005DD21FB393290065F85C /* Connor_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connor_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA005DD31FB3A1970065F85C /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 		AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA5D7DCD1FA256C100C7DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		AA5D7DEB1FA25B7400C7DA5D /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		AA5D7DEF1FA25B9500C7DA5D /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		AA5D7DF11FA25BA900C7DA5D /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,7 @@
 				AA5D7DE01FA2581A00C7DA5D /* Resources */,
 				AA5D7DDF1FA2581200C7DA5D /* Model */,
 				AA5D7DDE1FA2580800C7DA5D /* View */,
+				AA005DD21FB393290065F85C /* Connor_CSP.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +71,7 @@
 				AA5D7DEB1FA25B7400C7DA5D /* AlgorithmsViewController.swift */,
 				AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */,
 				AA5D7DEF1FA25B9500C7DA5D /* InternetViewController.swift */,
-				AA5D7DF11FA25BA900C7DA5D /* ImpactViewController.swift */,
+				AA005DD31FB3A1970065F85C /* ImpactViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -117,7 +118,7 @@
 			);
 			name = Connor_CSP;
 			productName = Connor_CSP;
-			productReference = AA5D7DC51FA256C100C7DA5D /* Connor_CSP.app */;
+			productReference = AA005DD21FB393290065F85C /* Connor_CSP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5D7DCB1FA256C100C7DA5D /* ViewController.swift in Sources */,
-				AA5D7DF21FA25BA900C7DA5D /* ImpactViewController.swift in Sources */,
+				AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */,
 				AA5D7DEE1FA25B8600C7DA5D /* ProgrammingViewController.swift in Sources */,
 				AA5D7DC91FA256C100C7DA5D /* AppDelegate.swift in Sources */,
 				AA5D7DEA1FA25B6800C7DA5D /* DataViewController.swift in Sources */,
@@ -320,7 +321,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Connor_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Connor-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,7 +338,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Connor_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Connor-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";

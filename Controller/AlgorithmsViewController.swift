@@ -13,7 +13,7 @@ class AlgorithmsViewController: UIViewController
     // Mark : Data members
     @IBOutlet weak var firstLabel: UILabel!
     
-    private func setupAlgorithm() -> void
+    private func setupAlgorithm() -> Void
     {
         var algorithmSteps : [String] = []
         
@@ -29,9 +29,9 @@ class AlgorithmsViewController: UIViewController
         
         
         //TODO: Finish adding all steps to the algorithm
-        algorithmSteps = [stepOne, stepTwo, stepThree]
+        algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven]
         
-        let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
+        let attributesDictionary = [NSAttributedStringKey.font : firstLabel.font]
         let fullAttributedString = NSMutableAttributedString (string: algorithm, attributes: attributesDictionary)
         
         for step in algorithmSteps
@@ -46,7 +46,7 @@ class AlgorithmsViewController: UIViewController
             fullAttributedString.append(attributedStringStep)
         }
         
-        algorithmText.attributedText = fullAttributedString
+        firstLabel.attributedText = fullAttributedString
     }
     
     private func createParagraphStyle() -> NSParagraphStyle
@@ -66,7 +66,7 @@ class AlgorithmsViewController: UIViewController
 
     {
         super.viewDidLoad()
-
+        setupAlgorithm()
         // Do any additional setup after loading the view.
     }
 
