@@ -8,15 +8,28 @@
 
 import UIKit
 
-class ImpactViewController: UIViewController {
+class ImpactViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
+    public func text() -> Void
+    {
+        problem.text = "Climate change is a growing issue in 2017.  Climate change caouses storms, droughts, pollution, and a overall temperature increase(bad for growing crops)"
+        
+        connections.text = "I feel that climate change could impact the world to a point that could make the planet inhabitable.  Something needs to be done for the sake of our livelyhood and our planet. "
+    }
+    @IBOutlet weak var problem: UILabel!
+    
+    @IBOutlet weak var connections: UILabel!
+    
+    
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
