@@ -14,7 +14,7 @@ class ImpactViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
+        text()
         // Do any additional setup after loading the view.
     }
     public func text() -> Void
@@ -22,11 +22,14 @@ class ImpactViewController: UIViewController
         problem.text = "Climate change is a growing issue in 2017.  Climate change caouses storms, droughts, pollution, and a overall temperature increase(bad for growing crops)"
         
         connections.text = "I feel that climate change could impact the world to a point that could make the planet inhabitable.  Something needs to be done for the sake of our livelyhood and our planet. "
+        
+        picture.image = #imageLiteral(resourceName: "ClimateApp")
     }
     @IBOutlet weak var problem: UILabel!
     
     @IBOutlet weak var connections: UILabel!
     
+    @IBOutlet weak var picture: UIImageView!
     
     override func didReceiveMemoryWarning()
     {
