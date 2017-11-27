@@ -8,15 +8,37 @@
 
 import UIKit
 
-class AbstractionViewController: UIViewController {
+public class AbstractionViewController: UIViewController, UIPageViewControllerDataSource
+    
+{
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    private (set) lazy var orderedAbstractionViews : [UIViewController] =
+    {
+        return [
+            self.newAbstractionViewController(abstractionLevel: "Block"),
+            self.newAbstractionViewController(abstractionLevel: "Java"),
+            self.newAbstractionViewController(abstractionLevel: "ByteCode"),
+            self.newAbstractionViewController(abstractionLevel: "Binary"),
+            self.newAbstractionViewController(abstractionLevel: "AndGate")
+        ]
+    }()
+        //Helper method to retrieve the correct ViewController
+        private func newAbstractionViewContoller(abstractionLevel : String) -> UIViewController
+        {
+            return UIStoryboard(name: "Main", bundle : nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewController")
+            
+        }
+        
+        override public func viewDidLoad()
+        {
+            
+        }
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
