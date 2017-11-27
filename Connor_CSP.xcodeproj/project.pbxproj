@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA005DD31FB3A1970065F85C /* ImpactViewController.swift */; };
+		AA399CAA1FC35F7E00EB77C5 /* petable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA399CA91FC35F7E00EB77C5 /* petable.swift */; };
+		AA399CAC1FC3605700EB77C5 /* Pupper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA399CAB1FC3605700EB77C5 /* Pupper.swift */; };
 		AA5D7DC91FA256C100C7DA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */; };
 		AA5D7DCB1FA256C100C7DA5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */; };
 		AA5D7DCE1FA256C100C7DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7DCC1FA256C100C7DA5D /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AA005DD21FB393290065F85C /* Connor_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connor_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA005DD31FB3A1970065F85C /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		AA399CA91FC35F7E00EB77C5 /* petable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petable.swift; sourceTree = "<group>"; };
+		AA399CAB1FC3605700EB77C5 /* Pupper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pupper.swift; sourceTree = "<group>"; };
 		AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA5D7DCD1FA256C100C7DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		AA5D7DDF1FA2581200C7DA5D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AA399CA91FC35F7E00EB77C5 /* petable.swift */,
+				AA399CAB1FC3605700EB77C5 /* Pupper.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +180,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5D7DCB1FA256C100C7DA5D /* ViewController.swift in Sources */,
+				AA399CAA1FC35F7E00EB77C5 /* petable.swift in Sources */,
+				AA399CAC1FC3605700EB77C5 /* Pupper.swift in Sources */,
 				AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */,
 				AA5D7DEE1FA25B8600C7DA5D /* ProgrammingViewController.swift in Sources */,
 				AA5D7DC91FA256C100C7DA5D /* AppDelegate.swift in Sources */,
