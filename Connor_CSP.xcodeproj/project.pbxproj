@@ -11,6 +11,7 @@
 		AA399CAA1FC35F7E00EB77C5 /* petable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA399CA91FC35F7E00EB77C5 /* petable.swift */; };
 		AA399CAC1FC3605700EB77C5 /* Pupper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA399CAB1FC3605700EB77C5 /* Pupper.swift */; };
 		AA51946B1FCF39DB00EEC062 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51946A1FCF39DB00EEC062 /* InternetDetailViewController.swift */; };
+		AA51946E1FCF3BAD00EEC062 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA51946D1FCF3BAD00EEC062 /* WebKit.framework */; };
 		AA5D7DC91FA256C100C7DA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */; };
 		AA5D7DCB1FA256C100C7DA5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */; };
 		AA5D7DCE1FA256C100C7DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5D7DCC1FA256C100C7DA5D /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		AA399CA91FC35F7E00EB77C5 /* petable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petable.swift; sourceTree = "<group>"; };
 		AA399CAB1FC3605700EB77C5 /* Pupper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pupper.swift; sourceTree = "<group>"; };
 		AA51946A1FCF39DB00EEC062 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		AA51946D1FCF3BAD00EEC062 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AA5D7DC81FA256C100C7DA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5D7DCA1FA256C100C7DA5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA5D7DCD1FA256C100C7DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,12 +51,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA51946E1FCF3BAD00EEC062 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA51946C1FCF3BAD00EEC062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA51946D1FCF3BAD00EEC062 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA5D7DBC1FA256C100C7DA5D = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +74,7 @@
 				AA5D7DDF1FA2581200C7DA5D /* Model */,
 				AA5D7DDE1FA2580800C7DA5D /* View */,
 				AA005DD21FB393290065F85C /* Connor_CSP.app */,
+				AA51946C1FCF3BAD00EEC062 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

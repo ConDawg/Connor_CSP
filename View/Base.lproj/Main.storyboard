@@ -154,31 +154,49 @@
             </objects>
             <point key="canvasLocation" x="878" y="883"/>
         </scene>
-        <!--View Controller-->
+        <!--Internet Detail View Controller-->
         <scene sceneID="TSD-8a-F1O">
             <objects>
-                <viewController id="iHY-UW-LrB" sceneMemberID="viewController">
+                <viewController id="iHY-UW-LrB" customClass="InternetDetailViewController" customModule="Connor_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pbw-QN-fMr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vue-J9-bIA">
+                                <rect key="frame" x="16" y="81" width="343" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q96-er-sXI">
+                                <rect key="frame" x="67" y="390" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="0af-2p-e3o"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPc-tE-iSO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1830" y="2254"/>
+            <point key="canvasLocation" x="1829.5999999999999" y="2253.8230884557724"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="DVt-rK-q9n">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="LdT-HY-HNd" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="LdT-HY-HNd" customClass="InternetMasterViewController" customModule="Connor_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yWU-QR-fG9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EKr-O1-eDq">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="EKr-O1-eDq">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EKr-O1-eDq" id="7Sj-9Z-hti">
@@ -197,21 +215,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cIL-nh-zLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2782" y="1588"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="70Q-GO-Oz1">
-            <objects>
-                <viewController id="Omp-3f-lcN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uhT-TS-zu1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="cJa-CY-qfm"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uyE-Cg-Xoz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3510" y="1587"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Is4-i1-oSF">

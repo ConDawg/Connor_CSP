@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class InternetMasterViewController: UIViewController
+public class InternetMasterViewController: UITableViewController
 {
 
     private (set) lazy var internetTopics : [String] =
@@ -35,12 +35,12 @@ public class InternetMasterViewController: UIViewController
         super.viewDidLoad()
         setup()
         // Uncomment the following line to preserve selection betwen presentations
-        self.clearSelectionOnViewWillAppear = false
+        self.clearsSelectionOnViewWillAppear = false
     }
 
-    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section, _: Int) -> Int
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
-        return internetTopics.count
+        return 1
     }
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
