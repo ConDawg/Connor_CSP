@@ -182,6 +182,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="0af-2p-e3o"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="Vue-J9-bIA" id="Tfu-Tg-avB"/>
+                        <outlet property="webView" destination="q96-er-sXI" id="VB4-Hn-niZ"/>
+                        <outlet property="webViewer" destination="q96-er-sXI" id="O53-Ya-b9d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPc-tE-iSO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
