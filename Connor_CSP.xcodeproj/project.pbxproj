@@ -23,6 +23,7 @@
 		AA5D7DEC1FA25B7400C7DA5D /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DEB1FA25B7400C7DA5D /* AlgorithmsViewController.swift */; };
 		AA5D7DEE1FA25B8600C7DA5D /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */; };
 		AA5D7DF01FA25B9500C7DA5D /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DEF1FA25B9500C7DA5D /* InternetMasterViewController.swift */; };
+		AA5FACEC1FD72B0900B13D41 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FACEB1FD72B0900B13D41 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		AA5D7DEB1FA25B7400C7DA5D /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		AA5D7DEF1FA25B9500C7DA5D /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		AA5FACEB1FD72B0900B13D41 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				AA5D7DCC1FA256C100C7DA5D /* Main.storyboard */,
 				AA5D7DD11FA256C100C7DA5D /* LaunchScreen.storyboard */,
+				AA5FACEB1FD72B0900B13D41 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				AA399CAC1FC3605700EB77C5 /* Pupper.swift in Sources */,
 				AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */,
 				AA51946B1FCF39DB00EEC062 /* InternetDetailViewController.swift in Sources */,
+				AA5FACEC1FD72B0900B13D41 /* DrawingView.swift in Sources */,
 				AA5D7DEE1FA25B8600C7DA5D /* ProgrammingViewController.swift in Sources */,
 				AA5D7DC91FA256C100C7DA5D /* AppDelegate.swift in Sources */,
 				AA5D7DEA1FA25B6800C7DA5D /* DataViewController.swift in Sources */,
