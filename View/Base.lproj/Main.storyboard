@@ -190,9 +190,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPc-tE-iSO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1829.5999999999999" y="2253.8230884557724"/>
+            <point key="canvasLocation" x="1662" y="2360"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Internet Samples-->
         <scene sceneID="DVt-rK-q9n">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="LdT-HY-HNd" customClass="InternetMasterViewController" customModule="Connor_CSP" customModuleProvider="target" sceneMemberID="viewController">
@@ -208,6 +208,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="iHY-UW-LrB" kind="showDetail" id="eTu-yh-KaR"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -215,11 +218,11 @@
                             <outlet property="delegate" destination="LdT-HY-HNd" id="ziT-Ih-vyc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="kLf-Sb-tHp"/>
+                    <navigationItem key="navigationItem" title="Internet Samples" id="kLf-Sb-tHp"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cIL-nh-zLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2782" y="1588"/>
+            <point key="canvasLocation" x="2446" y="1586"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Is4-i1-oSF">
@@ -235,7 +238,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YDy-o9-05m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1830" y="1588"/>
+            <point key="canvasLocation" x="1662" y="1587"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="wWR-9D-mEy">
@@ -450,4 +453,7 @@
         <image name="Object code" width="436" height="271"/>
         <image name="javaSample" width="1126" height="754"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eTu-yh-KaR"/>
+    </inferredMetricsTieBreakers>
 </document>
