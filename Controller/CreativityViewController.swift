@@ -130,7 +130,7 @@ public class CreativityViewController : UICollectionViewController, UICollection
         return false
         }
     }
-    }
+    
 
 
 

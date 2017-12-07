@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA005DD31FB3A1970065F85C /* ImpactViewController.swift */; };
+		AA380C101FD9D398006F13F1 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA380C0F1FD9D398006F13F1 /* ArtCell.swift */; };
 		AA399CAA1FC35F7E00EB77C5 /* petable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA399CA91FC35F7E00EB77C5 /* petable.swift */; };
 		AA399CAC1FC3605700EB77C5 /* Pupper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA399CAB1FC3605700EB77C5 /* Pupper.swift */; };
 		AA51946B1FCF39DB00EEC062 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51946A1FCF39DB00EEC062 /* InternetDetailViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		AA005DD21FB393290065F85C /* Connor_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connor_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA005DD31FB3A1970065F85C /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		AA380C0F1FD9D398006F13F1 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		AA399CA91FC35F7E00EB77C5 /* petable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petable.swift; sourceTree = "<group>"; };
 		AA399CAB1FC3605700EB77C5 /* Pupper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pupper.swift; sourceTree = "<group>"; };
 		AA51946A1FCF39DB00EEC062 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				AA5D7DEF1FA25B9500C7DA5D /* InternetMasterViewController.swift */,
 				AA005DD31FB3A1970065F85C /* ImpactViewController.swift */,
 				AA51946A1FCF39DB00EEC062 /* InternetDetailViewController.swift */,
+				AA380C0F1FD9D398006F13F1 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5D7DCB1FA256C100C7DA5D /* ViewController.swift in Sources */,
+				AA380C101FD9D398006F13F1 /* ArtCell.swift in Sources */,
 				AA399CAA1FC35F7E00EB77C5 /* petable.swift in Sources */,
 				AA399CAC1FC3605700EB77C5 /* Pupper.swift in Sources */,
 				AA005DD41FB3A1970065F85C /* ImpactViewController.swift in Sources */,
