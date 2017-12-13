@@ -458,10 +458,10 @@
             </objects>
             <point key="canvasLocation" x="3401" y="886"/>
         </scene>
-        <!--View Controller-->
+        <!--Programming View Controller-->
         <scene sceneID="hTq-o0-FgO">
             <objects>
-                <viewController id="nhC-05-17c" sceneMemberID="viewController">
+                <viewController id="nhC-05-17c" customClass="ProgrammingViewController" customModule="Connor_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4pA-5r-gy9" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
