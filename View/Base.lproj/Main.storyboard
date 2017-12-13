@@ -114,6 +114,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-1y-LMz">
+                                <rect key="frame" x="154" y="601" width="62" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Game on"/>
+                                <connections>
+                                    <segue destination="nhC-05-17c" kind="show" id="4E0-Bn-S8p"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ROn-2n-SfN"/>
@@ -449,6 +457,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="udQ-hM-WxB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3401" y="886"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hTq-o0-FgO">
+            <objects>
+                <viewController id="nhC-05-17c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4pA-5r-gy9" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="sKX-PJ-xvj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4fp-Wr-vI0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33" y="142"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="uyN-sc-cM7">
