@@ -40,6 +40,7 @@
 		AA5D7DEE1FA25B8600C7DA5D /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */; };
 		AA5D7DF01FA25B9500C7DA5D /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D7DEF1FA25B9500C7DA5D /* InternetMasterViewController.swift */; };
 		AA5FACEC1FD72B0900B13D41 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FACEB1FD72B0900B13D41 /* DrawingView.swift */; };
+		AA764FC21FE9A55100368B8C /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA764FC11FE9A55100368B8C /* DeathScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		AA5D7DED1FA25B8600C7DA5D /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		AA5D7DEF1FA25B9500C7DA5D /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		AA5FACEB1FD72B0900B13D41 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		AA764FC11FE9A55100368B8C /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				AA0D09511FE1AB0300D80EE5 /* GameScene.swift */,
 				AA0D09521FE1AB0400D80EE5 /* LevelCompleteScene.swift */,
 				AA0D09531FE1AB0400D80EE5 /* StartScene.swift */,
+				AA764FC11FE9A55100368B8C /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				AA0D09761FE1AFD800D80EE5 /* Player.swift in Sources */,
 				AA5D7DE81FA25B5C00C7DA5D /* AbstractionViewController.swift in Sources */,
 				AA5D7DF01FA25B9500C7DA5D /* InternetMasterViewController.swift in Sources */,
+				AA764FC21FE9A55100368B8C /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

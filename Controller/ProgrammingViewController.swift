@@ -19,6 +19,7 @@ class ProgrammingViewController: UIViewController
         let gameView = view as! SKView
         
         gameView.showsFPS = true
+        gameView.showsPhysics = true
         gameView.showsNodeCount = true
         gameView.ignoresSiblingOrder = true
         

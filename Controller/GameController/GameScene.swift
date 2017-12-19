@@ -22,7 +22,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     //MARK: Game Data
     let leftBounds : CGFloat = 30
-    var rightBounds : CGFloat = 0
+    var rightBounds : CGFloat = 0.0
     
     let maxLevels = 3
     let motionManager: CMMotionManager = CMMotionManager()
@@ -183,12 +183,21 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             firstBody = contact.bodyB
             secondBody = contact.bodyA
         }
-        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
+        
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.EdgeBody != 0))
         {
             print ("Invader and Player Bullet Contact")
         }
         
-        if((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.InvaderBullet != 0))
+        
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerLaser != 0))
+        {
+            print ("Invader and Player Bullet Contact")
+        }
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.InvaderLaser != 0))
         {
             print ("Player and Invader Bullet Contact")
         }
