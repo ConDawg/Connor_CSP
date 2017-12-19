@@ -28,7 +28,7 @@ class DeathScene: SKScene
     {
         let touch = touches.first
         let touchLocation = touch?.location(in: self)
-        let touchNode = self.atPoint(touchLocation!)
+        let touchedNode = self.atPoint(touchLocation!)
         if(touchedNode.name == "game over")
         {
             let newGameScene = GameScene(size: size)
