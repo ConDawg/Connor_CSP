@@ -280,6 +280,6 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             theInvader.removeFromParent()
             secondBody.node?.removeFromParent()
     
+        }
     }
-    
 }

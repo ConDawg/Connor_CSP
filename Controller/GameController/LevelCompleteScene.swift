@@ -16,7 +16,7 @@ public class LevelCompleteScene: SKScene
     {
         self.backgroundColor = SKColor.black
         let startGameButton = SKSpriteNode(imageNamed: "nextLevel")
-        startGameButton.position = CGPoint(x:size.width/2, y:size.height/2 - 100)
+        startGameButton.position = CGPoint(x:size.width / 2, y:size.height / 2 - 100)
         startGameButton.name = "nextlevel"
         addChild(startGameButton)
     }
