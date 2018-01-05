@@ -17,7 +17,7 @@ class DeathScene: SKScene
         
         let gameOver = SKLabelNode(text: "You're🤣😂😆Dead")
         gameOver.name = "game over"
-        gameOver.fontSize = 65
+        gameOver.fontSize = 50
         gameOver.fontColor = SKColor.red
         gameOver.position = CGPoint(x: frame.midX, y: frame.midY)
         
