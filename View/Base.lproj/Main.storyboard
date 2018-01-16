@@ -62,16 +62,16 @@
             </objects>
             <point key="canvasLocation" x="877.60000000000002" y="-584.25787106446785"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Data View Controller-->
         <scene sceneID="hyN-XL-iqn">
             <objects>
-                <tableViewController id="MDJ-M4-gnj" sceneMemberID="viewController">
+                <tableViewController id="MDJ-M4-gnj" customClass="DataViewController" customModule="Connor_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cum-Gr-Pf9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" id="xF6-M1-GwM" customClass="BucketItemCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" id="xF6-M1-GwM" customClass="BucketItemCell" customModule="Connor_CSP" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xF6-M1-GwM" id="71c-9G-e1G">
@@ -107,6 +107,11 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="z9w-zd-7J2" id="exk-SQ-aBD"/>
+                                    <outlet property="bucketItemSymbol" destination="eLJ-na-e2a" id="8fF-D2-kXy"/>
+                                    <outlet property="bucketItemText" destination="VMn-oy-oUl" id="fDE-ly-vkb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -134,51 +139,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXX-pc-BNF">
-                                <rect key="frame" x="53" y="409" width="264" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="I bless the rains down in impact button"/>
-                                <connections>
-                                    <segue destination="mhG-FS-EbV" kind="show" id="tDi-5m-Zdo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggg-XS-pWm">
-                                <rect key="frame" x="16" y="447" width="343" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="We gonna rock down to algorithms page"/>
-                                <connections>
-                                    <segue destination="cnu-Vs-358" kind="show" id="tCK-cz-Swp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyW-sv-vAE">
-                                <rect key="frame" x="146" y="507" width="79" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Flip it Good"/>
-                                <connections>
-                                    <segue destination="iGW-jg-7De" kind="show" id="o19-m0-fem"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COY-bd-SqQ">
-                                <rect key="frame" x="165" y="545" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="Xh5-ZN-sQM" kind="show" id="QgG-xD-pzI"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kpt-ou-XiY" customClass="DrawingView" customModule="Connor_CSP" customModuleProvider="target">
                                 <rect key="frame" x="35" y="101" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-1y-LMz">
-                                <rect key="frame" x="154" y="601" width="62" height="46"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="hfO-jw-jSM">
+                                <rect key="frame" x="49" y="409" width="276" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Game on"/>
-                                <connections>
-                                    <segue destination="nhC-05-17c" kind="show" id="4E0-Bn-S8p"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXX-pc-BNF">
+                                        <rect key="frame" x="6" y="0.0" width="264" height="30"/>
+                                        <state key="normal" title="I bless the rains down in impact button"/>
+                                        <connections>
+                                            <segue destination="mhG-FS-EbV" kind="show" id="tDi-5m-Zdo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggg-XS-pWm">
+                                        <rect key="frame" x="0.0" y="48" width="276" height="30"/>
+                                        <state key="normal" title="We gonna rock down to algorithms page"/>
+                                        <connections>
+                                            <segue destination="cnu-Vs-358" kind="show" id="tCK-cz-Swp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyW-sv-vAE">
+                                        <rect key="frame" x="98.5" y="96" width="79" height="30"/>
+                                        <state key="normal" title="Flip it Good"/>
+                                        <connections>
+                                            <segue destination="iGW-jg-7De" kind="show" id="o19-m0-fem"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COY-bd-SqQ">
+                                        <rect key="frame" x="58" y="144" width="160" height="30"/>
+                                        <state key="normal" title="Look at the Photoraphs"/>
+                                        <connections>
+                                            <segue destination="Xh5-ZN-sQM" kind="show" id="QgG-xD-pzI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhe-1y-LMz">
+                                        <rect key="frame" x="50.5" y="192" width="175" height="30"/>
+                                        <state key="normal" title="Getcha Game on, Go Play"/>
+                                        <connections>
+                                            <segue destination="nhC-05-17c" kind="show" id="4E0-Bn-S8p"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ROn-2n-SfN"/>
@@ -609,7 +615,7 @@
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xDR-YW-ree"/>
+        <segue reference="QgG-xD-pzI"/>
         <segue reference="eo5-Lv-B2j"/>
     </inferredMetricsTieBreakers>
 </document>
